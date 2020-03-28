@@ -1,0 +1,360 @@
+<html>
+    <title>My Chat Box</title>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name="robots" content="noindex">
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+        <link rel="stylesheet" href="./Font-awesome/web-fonts-with-css/css/all.css">
+        <link rel="stylesheet" href="./vendor/css/style.css">
+        <link rel="stylesheet" href="./vendor/Font-awesome/web-fonts-with-css/css/all.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div id="frame">
+            <div id="sidepanel">
+                <div id="profile">
+                    <div class="wraapp">
+                        <img id="profile-img" src="./Images/Image 1.jpg" class="online" alt="" />
+                        <div id="status-options">
+                            <ul>
+                                <li id="status-online" class="active"><span class="status-circle"></span> <p>Online</p></li>
+                                <li id="status-away"><span class="status-circle"></span> <p>Away</p></li>
+                                <li id="status-busy"><span class="status-circle"></span> <p>Busy</p></li>
+                                <li id="status-offline"><span class="status-circle"></span> <p>Offline</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="sidebar">
+                        <div class="side-option">
+                            <a href="#propertties"><i class="fa fa-home"></i><p> Properties</p></a>
+                        </div>
+                        <div class="side-option active">
+                            <a href="#chat"><i class="fa fa-comment"></i><p> Chat</p></a>
+                        </div>
+                        <div class="side-option">
+                            <a href="#calendar"><i class="fa fa-calendar"></i><p> Calendar</p></a> 
+                        </div>
+                        <div class="side-option">
+                            <a href="#offers"><i class="fa fa-tag"></i><p> Offers</p></a>
+                        </div>
+                        <div class="side-option">
+                            <a href="#documents"><i class="fa fa-file"></i><p> Documents</p></a>
+                        </div>
+                        <div class="side-option">
+                            <a href="#settings"><i class="fa fa-cog setting-bottom"></i><p> Settings</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="chatbox">
+                <div id="search">
+                    <label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+                    <input type="text" placeholder="Search contacts..." />
+                </div>
+                <div id="contacts">
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 2.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Angelina Jolie</p>
+                                <p class="preview">You just got LITT up, Chris.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="./Images/Image 3.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Chris Evans</p>
+                                <p class="preview">Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact active">
+                        <div class="wrap">
+                            <span class="contact-status away"></span>
+                            <img src="./Images/Image 5.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Alexandra Daddario</p>
+                                <p class="preview">I was thinking that we could have chicken tonight, sounds good?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 15.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Emilia Clarke</p>
+                                <p class="preview">Hello Chris hope you are doing well</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status"></span>
+                            <img src="./Images/Image 17.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Megan Fox</p>
+                                <p class="preview">Thank you! Chris</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 4.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Johnny Depp</p>
+                                <p class="preview">Chris, I know everything! I'm Donna..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="./Images/Image 7.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Scarlett Johansson</p>
+                                <p class="preview">Have you finished the draft on the Hinsenburg deal?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status away"></span>
+                            <img src="./Images/Image 6.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Bradley Cooper</p>
+                                <p class="preview">Thanks Chris! :)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status away"></span>
+                            <img src="./Images/Image 8.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Cobie Smulders</p>
+                                <p class="preview">We'll meet again, Chris. Tell Jessica I said 'Hi'.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="./Images/Image 9.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Donna Paulsen</p>
+                                <p class="preview">I've sent you the files for the Garrett trial.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 10.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Amber Heard</p>
+                                <p class="preview">Chris, this isn't over.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 11.JPG" alt="" />
+                            <div class="meta">
+                                <p class="name">Dakota Johnson</p>
+                                <p class="preview">That's not good. This deal is solid.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status Busy"></span>
+                            <img src="./Images/Image 12.png" alt="" />
+                            <div class="meta">
+                                <p class="name">Meghan Markle</p>
+                                <p class="preview">Nice to meet you Chris.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status away"></span>
+                            <img src="./Images/Image 13.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Hugh Jackman</p>
+                                <p class="preview">I'll wait bro.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status busy"></span>
+                            <img src="./Images/Image 18.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Charlize Theron</p>
+                                <p class="preview">We'll meet soon!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status online"></span>
+                            <img src="./Images/Image 16.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Jessica Alba</p>
+                                <p class="preview">Didn't you watch my recently movie trailer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="wrap">
+                            <span class="contact-status away"></span>
+                            <img src="./Images/Image 14.jpg" alt="" />
+                            <div class="meta">
+                                <p class="name">Selena Gomez </p>
+                                <p class="preview">I'm not singing enymore :(.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="contact-profile">
+                    <div class="wrap">
+                        <span class="story-circle"></span>
+                        <img src="./Images/Image 5.jpg" alt="" />
+                        <div class="active">
+                            <p class="name">Alexandra Daddario</p>
+                            <p class="lastseen">Online</p>
+                        </div>
+                        <span id="profile-icons">
+                            <i class="fas fa-video" aria-hidden="true"></i>
+                            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                        </span>
+                        <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+                        <div class="action_menu">
+                            <ul>
+                                <li>View profile</li>
+                                <li>Select messages</li>
+                                <li>Add to group</li>
+                                <li>Mute</li>
+                                <li>Clear messages</li>
+                                <li>Delete chat</li>
+                                <li>Block</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div class="chatset">
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="./Images/Image 2.jpg">
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p>How the hell am I supposed to get a jury to believe you when I am not even sure that I do?!</p>
+                                    <span class="time">11:45 pm</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-msg">
+                                <p>When you're backed against the wall, break the god damn thing down.</p>
+                                <span class="time">11:45 pm</span>
+                            </div>
+                            <div class="outgoing-chats-img">
+                                <img src="./Images/Image 3.jpg">
+                            </div>
+                        </div>
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="./Images/Image 2.jpg">
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p>Oh yeah, did Michael Jordan tell you that?</p>
+                                    <span class="time">11:45 pm</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-msg">
+                                <p>No, I told him that. What are your choices when someone puts a gun to your head?</p>
+                                <span class="time">11:45 pm</span>
+                            </div>
+                            <div class="outgoing-chats-img">
+                                <img src="./Images/Image 3.jpg">
+                            </div>
+                        </div>
+                        <div class="received-chats">
+                            <div class="received-chats-img">
+                                <img src="./Images/Image 2.jpg">
+                            </div>
+                            <div class="received-msg">
+                                <div class="received-msg-inbox">
+                                    <p>What are you talking about? You do what they say or they shoot you.</p>
+                                    <span class="time">11:45 pm</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outgoing-chats">
+                            <div class="outgoing-chats-msg">
+                                <p>Wrong. You take the gun, or you pull out a bigger one. Or, you call their bluff. Or, you do any one of a hundred and forty six other things.</p>
+                                <span class="time">11:45 pm</span>
+                            </div>
+                            <div class="outgoing-chats-img">
+                                <img src="./Images/Image 3.jpg">
+                            </div>
+                        </div>
+                        <div class="received-chats">
+                                <div class="received-chats-img">
+                                    <img src="./Images/Image 2.jpg">
+                                </div>
+                                <div class="received-msg">
+                                    <div class="received-msg-inbox">
+                                        <p>Hello! This is 4th message from Angelina Jolie</p>
+                                        <span class="time">11:45 pm</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="outgoing-chats">
+                                <div class="outgoing-chats-msg">
+                                    <p>Hello! This is 4th message from me</p>
+                                    <span class="time">11:45 pm</span>
+                                </div>
+                                <div class="outgoing-chats-img">
+                                    <img src="./Images/Image 3.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="chat-app-form">
+                        <form class="chat-app-input d-flex">
+                            <div class="_Kj8dt">
+                                <i class="far fa-smile font-medium-6"></i>
+                              </div>
+                          <div class="form-group col-10 m-0">
+                              <input type="text" class="form-control message" id="iconLeft4-1" placeholder="Type your message">
+                          </div>
+                          <div class="form-group position-relative m-0">
+                            <button type="button" class="btn btn-primary circle-border-P6z4j send"><i class="fas fa-paper-plane d-lg-none"></i></button>
+                          </div>
+                        </form>
+                      </section>
+                </div>
+            </div>
+        </div>
+        
+        <script src="./vendor/js/style.js">
+        </script>
+    </body>
+</html>
